@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.Left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #262626;
+}
+
+.Right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #777474;
+}
+
+.OOM {
+  font-size: 8rem;
+  font-family: Anton;
+  font-weight: lighter;
+  margin-bottom: 600px;
+  margin-right: 1.5px;
+  color: #777474;
+  text-shadow: #262626 0px 0px 10px;
+}
+
+.NII {
+  font-size: 8rem;
+  font-family: Anton;
+  font-weight: lighter;
+  margin-bottom: 600px;
+  margin-left: 3px;
+  text-shadow: #262626 0px 0px 10px;
+  color: #262626;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #262626;
+}
