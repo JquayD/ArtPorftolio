@@ -53,13 +53,23 @@ body {
     background-color: #262626;
 }
 
+.ft-content {
+    border-width: 2px;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .section2 {
     background-color: #262626;
 }
 
 .gallery {
     max-width: 100%;
-    margin: 55px auto;
+    margin-bottom: 8px;
     border-radius: 20px;
     padding: 40px;
     display: grid;
@@ -100,4 +110,26 @@ body {
     .gallery-item {
         height: 200px;
     }
+}
+
+.rounded {
+    border-radius: 10px;
+    color: #777474;
+}
+
+.ss {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #777474;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #263627;
+    border-radius: 20px;
+    width: 50%;
 }
